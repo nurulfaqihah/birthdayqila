@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+    </head>
+    <body>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <center>
+    
+<h2>HELLO THERE MY PRINCESS!!</h2>
+<br>
+<p>Tekan la, jangan la kedekut jari</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text;
+  let person = prompt("Cer letak nama awak:", "");
+  if (person == null || person == "") {
+    text = "Jangan la cancel.";
+  } else {
+    text = "Hi sayang " + person + "! Camna rini? Harap awak baik baik yaaaa. Nak kasi ayat ni, kasi chance sikit eh. Kalau tak kasi tetap kena baca buuuu <br> Dalam Persahabatan tidak perlu saling mengerti. Karena sahabat yang baik akan menerimamu bahkan hingga hal-hal yang tak dapat dimengerti sekalipun.<br><br> Jum proceed next!!";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+
+<button onclick="document.location='index2.html'">pat pat</button>
+<p id="demo"></p>
+
+
+        </center>
+</body>
+</html>
